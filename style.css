@@ -7,7 +7,7 @@
     margin: 0px 0px 0px 0px;
     padding: 25px;
     box-sizing: border-box;
-    text-align: center;
+    align-content: center;
 }
 
 img {
@@ -20,6 +20,7 @@ img {
 .content {
     display: flex;
     flex-wrap: wrap;
+    background-color: beige;
 }
 
 /* Mobile Styles */
