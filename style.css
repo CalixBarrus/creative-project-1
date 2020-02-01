@@ -2,9 +2,12 @@ body {
   margin: 0 auto;
   max-width: 960px;
   font-family: 'Roboto Mono', monospace;
-  background-color: #b28e79;
+  background-color: #c29c9b;
 }
 
+h1 {
+  text-align: center;
+}
 .section {
     display: flex;
     flex-wrap: wrap;
@@ -38,6 +41,37 @@ img.mainimg {
     display: flex;
     flex-wrap: wrap;
     background-color: beige;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+
+  background-color: #a8a886;
+  color: white;
+  text-align: center;
+}
+.fa {
+  padding: 8px;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-instagram {
+  color: white;
+}
+.fa-github {
+  color: white;
+}
+.spacer {
+  margin-top: 46px;
+}
+.navbar-light {
+  background-color: #a8a886!important;
 }
 
 /* Mobile Styles */
